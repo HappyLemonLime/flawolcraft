@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+body { background-color: #313338;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header { color: #f2f3f5;
+        font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+/* .flex-container {
+  display: flex;            <--- me trying to mess around to try and find something that works before I went to bed ( I did not get far)
+  align-items: center;
+} */
+
+.navbar { color: #f2f3f5;
+        font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #1e1f22;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+.navbartitle { color: #f2f3f5;
+        font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #1e1f22;
+    text-align: center;
+    
+}
+
+
+.navbarlinks { color: #f2f3f5;
+        font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #1e1f22;
+    text-align: right;
+    padding-left: 5px;
+    float: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    
+}
+
+.link { color: rgb(201, 205, 251);;
+        font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    border-radius: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    padding: 0 5px;
+    padding-top: 0px;
+    padding-right: 2px;
+    padding-bottom: 0px;
+    padding-left: 2px;
+    background-color: rgba(88, 101, 242, 0.3);
+    text-decoration: none;
+}
+
+.linksvg {
+    width: 0.85em;
+    height: 0.85em;
+    padding: 5px;
+    padding-bottom: 9px;
+    vertical-align: middle;
+    background-color: rgba(88, 101, 242, 0);
+    
+
+}
+
+.rule1 { color: #f2f3f5;
+    font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    display: inline-block;
+    text-align: left;
+    
+}
+
+.rule2 { color: #f2f3f5;
+        font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.rule3 { color: #f2f3f5;
+        font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.rule4 { color: #f2f3f5;
+        font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.rule5 { color: #f2f3f5;
+        font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.rule6 { color: #f2f3f5;
+        font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.rule7 { color: #f2f3f5;
+        font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.rule8 { color: #f2f3f5;
+        font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.rule9 { color: #f2f3f5;
+        font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.rule10 { color: #f2f3f5;
+        font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
