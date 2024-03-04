@@ -16,33 +16,36 @@ body { background-color: #313338;
   align-items: center;
 } */
 
-.navbar { color: #f2f3f5;
-        font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    background-color: #1e1f22;
-    text-align: left;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 10px;
+.navbar {
+  color: #f2f3f5;
+  font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #1e1f22;
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction:row;
 }
 
-.navbartitle { color: #f2f3f5;
-        font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    background-color: #1e1f22;
-    text-align: center;
-    
+.col {
+  flex: 1 1 0px;
 }
 
+.navbartitle {
+  color: #f2f3f5;
+  font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #1e1f22;
+  text-align: center;  
+}
 
-.navbarlinks { color: #f2f3f5;
-        font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    background-color: #1e1f22;
-    text-align: right;
-    padding-left: 5px;
-    float: right;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 10px;
-    
+.navbarlinks {
+  color: #f2f3f5;
+  font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #1e1f22;
+  text-align: right;
+  padding-left: 5px;
+  float: right;
 }
 
 .link { color: rgb(201, 205, 251);;
