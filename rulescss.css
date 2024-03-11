@@ -11,11 +11,6 @@ body { background-color: #313338;
     text-align: center;
 }
 
-/* .flex-container {
-  display: flex;            <--- me trying to mess around to try and find something that works before I went to bed ( I did not get far)
-  align-items: center;
-} */
-
 .navbar {
   color: #f2f3f5;
   font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -75,45 +70,18 @@ body { background-color: #313338;
 
 }
 
-.rule1 { color: #f2f3f5;
-    font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    display: inline-block;
-    text-align: left;
 
+.questiondiv { color: #f2f3f5;
+        font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-align: center;
 }
 
-.rule2 { color: #f2f3f5;
+.intro { color: #f2f3f5;
         font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-align: center;
 }
 
-.rule3 { color: #f2f3f5;
+.responce1 { color: #f2f3f5;
         font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-.rule4 { color: #f2f3f5;
-        font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-.rule5 { color: #f2f3f5;
-        font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-.rule6 { color: #f2f3f5;
-        font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-.rule7 { color: #f2f3f5;
-        font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-.rule8 { color: #f2f3f5;
-        font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-.rule9 { color: #f2f3f5;
-        font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-.rule10 { color: #f2f3f5;
-        font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-align: center;
 }
