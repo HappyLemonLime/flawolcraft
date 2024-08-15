@@ -48,6 +48,7 @@ html, body {
   text-align: right;
   padding-left: 5px;
   float: right;
+  
 }
 
 .link { color: rgb(201, 205, 251);;
@@ -133,5 +134,66 @@ html, body {
 	color: #868c95;
 	text-align: center;
 	font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.btn {
+  color: #868c95;
+  text-align: center;
+  font-family: 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	
+}
+
+
+.btn-shadow {
+  display: inline-block;
+  margin: 5px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #f2f3f5;
+  position: relative;
+  text-align: center;
+  background: none;
+  border: medium;
+	
+}
+
+.btn-shadow::before {
+  height: 40px;
+  position: absolute;
+  bottom: -1px;
+  left: 10px;
+  right: 10px;
+  z-index: 0;
+  border-radius: 2em;
+}
+
+.btn-shadow span {
+  display: inline-block;
+  transform-style: preserve-3d;
+  transition: 0.3s ease-out;
+  padding: 8px 20px;
+  border-radius: 50px;
+  position: relative;
+  z-index: 2;
+  will-change: transform, filter;
+}
+
+.btn-shadow:hover {
+  color: #a8acb3;
+}
+
+.btn-shadow:hover span {
+  filter: brightness(0.9) contrast(1.2)
+}
+
+.btn-shadow:hover::before {
+  bottom: 8px;
+  filter: blur(6px) brightness(0.8);
+  left: 15px;
+  right: 15px;
+}
+
+.btn-shadow--black span {
+  background: rgb(26, 27, 30);
 }
 
